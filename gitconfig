@@ -37,7 +37,7 @@
 [user]
 	name = Louis Raetz
 	email = louis@louisraetz.com
-	signingkey = B12610AD132015B8
+	signingkey = /Users/louisraetz/.ssh/id_ed25519.pub
 [gpg]
 	program = /usr/local/MacGPG2/bin/gpg2
 	format = ssh

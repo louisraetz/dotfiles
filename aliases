@@ -1,0 +1,18 @@
+# Unix
+alias ll="ls -al"
+alias ln="ln -v"
+alias mkdir="mkdir -p"
+alias e="$EDITOR"
+alias v="$VISUAL"
+alias cc="clear"
+
+# Git
+alias gm="git commit"
+alias gr="git pull --rebase"
+alias gp="git push"
+
+# Vim
+alias vi="nvim"
+alias vim="nvim"
+alias view="nvim -R"
+alias vimdiff="nvim -d"

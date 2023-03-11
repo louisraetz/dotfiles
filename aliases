@@ -10,6 +10,7 @@ alias cc="clear"
 alias gm="git commit"
 alias gr="git pull --rebase"
 alias gp="git push"
+alias gs="git status"
 
 # Vim
 alias vi="nvim"

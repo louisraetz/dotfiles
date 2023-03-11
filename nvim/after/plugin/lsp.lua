@@ -34,6 +34,15 @@ lsp.setup_nvim_cmp({
   mapping = cmp_mappings
 })
 
+lsp.configure('eslint', {
+    on_attach = function()
+        vim.api.nvim_create_autocmd("BufWritePre", {
+            buffer = bufnr,
+            command = "EslintFixAll"
+        })
+    end
+})
+
 lsp.on_attach(function(client, bufnr)
   local opts = {buffer = bufnr, remap = false}
 
